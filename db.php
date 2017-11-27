@@ -3,9 +3,9 @@
 class DB {
     
     protected $mysqli;
-    const LOCALHOST = '127.0.0.1';
-    const USER = 'root';
-    const PASSWORD = 'password';
+    const LOCALHOST = '';
+    const USER = '';
+    const PASSWORD = '';
     const DATABASE = 'firmsteps';
     
     public function __construct() {   
